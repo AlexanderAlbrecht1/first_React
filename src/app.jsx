@@ -7,7 +7,15 @@ class App extends Component {
   render() {
     return ( <div className="app-container">
       <Navbar />
-      <Product />
+      <div className="products-container">
+      <Product description="Füge das Produkt zu deine Warenkorb hinzu!" img="./assets/img/tomato.jpg" title="Tomaten"/>
+      <Product description="Füge das Produkt zu deine Warenkorb hinzu!" img="./assets/img/cucumber.jpg" title="Gurken"/>
+      <Product description="Füge das Produkt zu deine Warenkorb hinzu!" img="./assets/img/mushrooms.jpg" title="Pilze"/>
+      <Product description="Füge das Produkt zu deine Warenkorb hinzu!" img="./assets/img/apples.jpg" title="Äpfel"/>
+      <Product description="Füge das Produkt zu deine Warenkorb hinzu!" img="./assets/img/pear.jpg" title="Birnen"/>
+      <Product description="Füge das Produkt zu deine Warenkorb hinzu!" img="./assets/img/bananas.jpg" title="Bananen"/>
+      </div>
+
       </div> );
   }
 }
